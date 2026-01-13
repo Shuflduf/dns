@@ -565,6 +565,7 @@ _vercel:
   - vc-domain-verify=foodie.hackclub.com,0215d38601a347a45686
   - vc-domain-verify=fraud.hackclub.com,e3e5b184c19552f5c475
   - vc-domain-verify=hacklet.hackclub.com,d91aafc7d2db1be00287
+  - vc-domain-verify=shrine.hackclub.com,5cc504de841b498e1ee1
 a5fj644skxexxgvvraqrag5ngcaovcny._domainkey:
   ttl: 300
   type: CNAME
@@ -5558,3 +5559,7 @@ vote.daydream:
   ttl: 300
   type: CNAME
   value: b.selfhosted.hackclub.com.
+shrine:
+- ttl: 300
+  type: CNAME
+  value: 4647e917ffec15e3.vercel-dns-017.com.
